@@ -1,0 +1,18 @@
+# Never commit real credentials.
+.env
+backend/.env
+frontend/.env
+*.env
+!.env.example
+!*.env.example
+
+# Dependencies / build artifacts
+node_modules/
+frontend/build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
